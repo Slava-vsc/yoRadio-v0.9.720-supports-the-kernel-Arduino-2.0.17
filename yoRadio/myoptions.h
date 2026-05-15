@@ -78,9 +78,10 @@
 // **************************************************************************
 
 /*        I2S DAC                 */
-#define I2S_DOUT          27                /*  DIN connection. Should be set to 255 if the board is not used */
-#define I2S_BCLK          26                /*  BCLK Bit clock */
-#define I2S_LRC           25                /*  WSEL Left Right Clock */
+#define I2S_DOUT          25        // SDIN, DIN
+#define I2S_BCLK          26        // SCLK, BCK
+#define I2S_LRC           27        // RLCLK, LRCK, WSEL
+//#define I2S_MCLK		  24		// MCLK - Master Clock (Тількі для CJMCU-4344)
 
 // **************************************************************************
 
