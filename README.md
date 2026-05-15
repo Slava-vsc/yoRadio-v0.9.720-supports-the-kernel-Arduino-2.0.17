@@ -1,8 +1,17 @@
-# yoRadio-v0.9.720-supports-the-kernel-Arduino-2.0.17
-# ёRadio
+# Мод yoRadio v0.9.720 з Українською локалізацією, максимально оновленими аудіо-бібліотеками, що працює на Arduino 2.0.17.
 <img src="images/yologo.png" width="190" height="142">
 
-##### Web-radio based on [ESP32-audioI2S](https://github.com/schreibfaul1/ESP32-audioI2S) or/and [ESP32-vs1053_ext](https://github.com/schreibfaul1/ESP32-vs1053_ext) library
+Мод створений на основі [ёRadio](https://github.com/e2002/yoradio),
+
+з використанням аудіо-бібліотек audioI2S [Вихідників від Wolle (schreibfaul1) 3.1.0d від 01.02.2025](https://github.com/schreibfaul1/ESP32-audioI2S/releases/tag/3.1.0),
+
+[адаптованих Maleksm](https://4pda.to/forum/index.php?showtopic=1010378&view=findpost&p=125839228) для роботи з ядром Arduino 2.0.17
+
+yoRadio перекладено Українською мовою.
+Додана можливість компіляції в Visual Studio Code, за допомогою Platformio.
+Перероблено логіку перемикання станцій на другому енкодері. Тепер при виборі станції не треба натискати на енкодер, підтвердження відбувається автоматично через три секунди.
+Додано підтримку CJMCU-4344.
+
 ---
 - [Hardware](#hardware)
 - [Connection tables](#connection-tables)
@@ -18,7 +27,6 @@
 - [More features](#more-features)
 - [Plugins](#plugins)
 - [Version history](#version-history)
-- [Описание на 4PDA](https://4pda.to/forum/index.php?s=&showtopic=1010378&view=findpost&p=112992611)
 ---
 #### NEW!
 ##### yoRadio Printed Circuit Boards repository:
